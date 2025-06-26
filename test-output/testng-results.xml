@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-25T12:35:10 IST" name="Default suite" finished-at="2025-06-25T12:36:17 IST" duration-ms="66418">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationIndustry()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationIndustry" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationTestNG()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationTestNG" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationWithPhone()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationWithPhone" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationIndustry()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationIndustry" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationTestNG()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationTestNG" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+        <method signature="CreateOrganizationTestNGSmoke_Regression.CreateOrganizationWithPhone()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" name="CreateOrganizationWithPhone" class="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2025-06-25T12:35:10 IST" name="Default test" finished-at="2025-06-25T12:36:17 IST" duration-ms="66418">
+      <class name="com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:09 IST" name="configBS" finished-at="2025-06-25T12:35:10 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:11 IST" name="configBC" finished-at="2025-06-25T12:35:31 IST" duration-ms="20914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:31 IST" name="configBM" finished-at="2025-06-25T12:35:39 IST" duration-ms="7956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationIndustry()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:39 IST" name="CreateOrganizationIndustry" finished-at="2025-06-25T12:35:53 IST" duration-ms="13782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationIndustry -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:53 IST" name="configAM" finished-at="2025-06-25T12:35:54 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:54 IST" name="configBM" finished-at="2025-06-25T12:35:57 IST" duration-ms="3023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationTestNG()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:35:57 IST" name="CreateOrganizationTestNG" finished-at="2025-06-25T12:36:07 IST" duration-ms="9857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationTestNG -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:07 IST" name="configAM" finished-at="2025-06-25T12:36:08 IST" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:08 IST" name="configBM" finished-at="2025-06-25T12:36:09 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateOrganizationWithPhone()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:09 IST" name="CreateOrganizationWithPhone" finished-at="2025-06-25T12:36:15 IST" duration-ms="6478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrganizationWithPhone -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:15 IST" name="configAM" finished-at="2025-06-25T12:36:16 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:16 IST" name="configAC" finished-at="2025-06-25T12:36:17 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression@5be1d0a4]" started-at="2025-06-25T12:36:17 IST" name="configAS" finished-at="2025-06-25T12:36:17 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.BaseTestng.CreateOrganizationTestNGSmoke_Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
