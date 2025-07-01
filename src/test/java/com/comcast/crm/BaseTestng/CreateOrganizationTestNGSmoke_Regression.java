@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.aventstack.extentreports.Status;
 import com.comcast.ListenerUtility.ListImpClass;
@@ -53,12 +54,18 @@ public class CreateOrganizationTestNGSmoke_Regression extends BaseClass{
 			
 			
 			
-			if(actOrgName.contains(organizationname))
+	/*		if(actOrgName.contains(organizationname))
 			{
 				System.out.println(organizationname+ "name is verified==PASS");
 			}else {
 				System.out.println(organizationname+ "name is not verified==FAIL");
-			}
+			}           */
+			
+			SoftAssert soft=new SoftAssert();
+			soft.assertEquals(actOrgName,organizationname );
+			soft.assertAll();
+			
+			
 		}
 
 						
@@ -86,14 +93,18 @@ public class CreateOrganizationTestNGSmoke_Regression extends BaseClass{
 			
 			OrganizationInfoPage oi = new OrganizationInfoPage(driver);
 			String actIndustry=driver.findElement(By.id("dtlview_Industry")).getText();
-			if(actIndustry.equals(industry))
+	/*		if(actIndustry.equals(industry))
 			{
 			System.out.println(industry + "is verified==PASS");
 			}
 			else {
 				System.out.println(industry + "is not verified==FAIL");
 			}
-
+                                                                                         */
+			
+			SoftAssert soft=new SoftAssert();
+			soft.assertEquals(actIndustry,industry );
+			soft.assertAll();
 			}
 
 		
@@ -124,13 +135,18 @@ public class CreateOrganizationTestNGSmoke_Regression extends BaseClass{
  		
  		
  		String actphoneNumber=driver.findElement(By.id("dtlview_Phone")).getText();
- 		if(actphoneNumber.equals(phone))
+ 		
+ /*		if(actphoneNumber.equals(phone))
  		{
  		System.out.println(phone+ "is created==PASS");
  		}
  		else {
- 			System.out.println(phone+ "is not created==FAIL");
- 		}
+ 		System.out.println(phone+ "is not created==FAIL");
+ 		}                                                           */
+ 		
+ 		SoftAssert soft=new SoftAssert();
+		soft.assertEquals(actphoneNumber,phone );
+		soft.assertAll();
  		
  		
 

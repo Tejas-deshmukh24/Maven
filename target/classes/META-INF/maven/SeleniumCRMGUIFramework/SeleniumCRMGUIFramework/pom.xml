@@ -5,6 +5,12 @@
 	<groupId>SeleniumCRMGUIFramework</groupId>
 	<artifactId>SeleniumCRMGUIFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
+	<properties>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -62,4 +68,60 @@
     <version>7.8.0</version>   
 </dependency>
 	</dependencies>
+	
+	<profiles>
+	   <profile>
+	      <id>PC</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.18.1</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>Parllelcrossbrowser.testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+			</profile>
+			
+			<profile>
+	      <id>RT</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.18.1</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>FullRegressionTest1.testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+			</profile>
+			
+			<profile>
+	      <id>RR</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.18.1</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>Regional.testng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+			</profile>	
+			</profiles>	
 </project>

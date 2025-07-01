@@ -67,9 +67,9 @@ public class CreateOranizationNameTestPOM1{
 	//Header message expected result:
 	
 	OrganizationInfoPage oi = new OrganizationInfoPage(driver);
+	
+	
 	String actOrgName = oi.getHeaderMsg().getText();
-	
-	
 	
 	if(actOrgName.contains(organizationname))
 	{
@@ -77,6 +77,8 @@ public class CreateOranizationNameTestPOM1{
 	}else {
 		System.out.println(organizationname+ "name is not verified==FAIL");
 	}
+	
+	
 	
 	hp.logout();
 	
